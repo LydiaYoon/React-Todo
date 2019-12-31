@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// useState를 통해 사용하는 상태에 문자열이 아닌 객체를 넣기
+// useState 문자열이 아닌 객체 넣기
 
 const EventPractice3 = () => {
   const [form, setForm] = useState({
