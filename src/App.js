@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import React, { Component } from "react";
+import MyComponent from "./MyComponent";
+import Counter from "./Counter";
+import Say from "./Say";
+import EventPractice3 from "./EventPractice3";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyComponent name="메타몽" favoriteNumber={1}>
+        리액트
+      </MyComponent>
+      <Counter />
+      <Say />
+      <EventPractice3 />
+    </>
   );
+};
+
+/*
+// 함수형 컴포넌트
+function App() {
+  const name = "react";
+  return <div className="react">{name === "react" && <h1>react</h1>}</div>;
 }
+
+// 클래스형 컴포넌트
+class App extends Component {
+  render() {
+    const name = "react";
+    return <div className="react">{name}</div>;
+  }
+}
+*/
 
 export default App;
