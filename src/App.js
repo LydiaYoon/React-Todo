@@ -4,7 +4,7 @@ import React from "react";
 // import MyComponent from "./practice/MyComponent";
 // import Counter from "./practice/Counter";
 // import Say from "./practice/Say";
-import EventPractice3 from "./practice/EventPractice3";
+// import EventPractice3 from "./practice/EventPractice3";
 import ValidationSample from "./practice/ValidationSample";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       </MyComponent> */}
       {/* <Counter /> */}
       {/* <Say /> */}
-      <EventPractice3 />
+      {/* <EventPractice3 /> */}
       <ValidationSample />
     </>
   );
