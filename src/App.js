@@ -1,9 +1,9 @@
 import React from "react";
 
-import CounterSample from "./practice/CounterSample";
+import Info from "./practice/Info";
 
 const App = () => {
-  return <CounterSample />;
+  return <Info />;
 };
 
 export default App;
